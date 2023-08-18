@@ -7,19 +7,19 @@ Smallsh is a lightweight shell written in C that offers a command line interface
 ## Features
 
 - Interactive input prompt
-    Tokenizes command line input
-    Parameter expansion including:
-        $$ for shell's process ID
-        $? for exit status of the last foreground command
-        $! for the process ID of the most recent background process
-        ${parameter} for environment variables
-    Built-in commands:
-        exit
-        cd
-    Execution of non-built-in commands
-    I/O redirection operators: <, >, >>
-    Background command execution using &
-    Custom signal handling for SIGINT and SIGTSTP
+- Tokenizes command line input
+- Parameter expansion including:
+    - '$$' for shell's process ID
+    - '$?' for exit status of the last foreground command
+    - '$!' for the process ID of the most recent background process
+    - '${parameter}' for environment variables
+- Built-in commands:
+    - exit
+    - cd
+- Execution of non-built-in commands
+- I/O redirection operators: <, >, >>
+- Background command execution using &
+- Custom signal handling for SIGINT and SIGTSTP
 
 How it Works
 
