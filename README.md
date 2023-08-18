@@ -1,6 +1,6 @@
-# smallsh: A Simple Shell in C
+# Smallsh: A Simple Shell in C
 
-Introduction
+## Introduction
 
 smallsh is a lightweight shell written in C that offers a command line interface similar to more complex shells, such as bash. It is designed as an educational project to demonstrate key concepts related to Unix process APIs, signal handling, and I/O redirection.
 Features
