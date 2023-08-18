@@ -21,24 +21,23 @@ Smallsh is a lightweight shell written in C that offers a command line interface
 - Background command execution using &
 - Custom signal handling for SIGINT and SIGTSTP
 
-How it Works
+## How it Works
 
-    Input: Manages background processes and reads a line of input from stdin or a script file.
-    Word Splitting: Breaks the input line into individual words.
-    Expansion: Performs variable and parameter expansion.
-    Parsing: Converts words into syntactic tokens.
-    Execution: Determines if the command is built-in and executes it. If not, it spawns a child process to run the command.
-    Waiting: Handles the synchronization between the parent smallsh process and any child processes it spawns.
+- Input: Manages background processes and reads a line of input from stdin or a script file.
+- Word Splitting: Breaks the input line into individual words.
+- Expansion: Performs variable and parameter expansion.
+- Parsing: Converts words into syntactic tokens.
+- Execution: Determines if the command is built-in and executes it. If not, it spawns a child process to run the command.
+- Waiting: Handles the synchronization between the parent smallsh process and any child processes it spawns.
 
-Signal Handling
+## Signal Handling
 
 In interactive mode:
 
-    SIGTSTP is ignored.
-    SIGINT is ignored except when reading input.
+- SIGTSTP is ignored.
+- SIGINT is ignored except when reading input.
 
-Usage
-Invocation
+## Usage
 
 Interactive Mode:
 
