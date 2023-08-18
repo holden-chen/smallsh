@@ -60,19 +60,16 @@ bash
 
 $ ls -al &
 
-Learning Outcomes
+## Learning Outcomes
 
 By exploring and working with smallsh, you'll get hands-on experience with:
 
-    The Unix process API
-    Writing programs using Unix process API
-    Understanding the concept of signals and their applications
-    Writing programs utilizing the Unix signal handling API
-    Understanding and implementing I/O redirection
+- The Unix process API
+- Writing programs using Unix process API
+- Understanding the concept of signals and their applications
+- Writing programs utilizing the Unix signal handling API
+- Understanding and implementing I/O redirection
 
-Notes to Potential Employers
-
-This project is a testament to my understanding of foundational Unix concepts. As a new graduate software engineer, it serves as an example of my ability to craft complex software while maintaining clarity and function.
-Final Thoughts
+## Final Thoughts
 
 While smallsh does not aim to replace fully-fledged shells, it provides a simplified platform to understand and explore key Unix programming concepts. Feel free to dive into the source code and provide feedback or modifications!
