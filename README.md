@@ -39,7 +39,9 @@ In interactive mode:
 
 ## Usage
 
-To compile the program, run '''make'''
+To compile the program, run ```make```. This will create an executable program named ```smallsh```. To run the program in interactive mode, use ```./smallsh``` in the same directory as the executable.
+To run the program in non-interactive mode, use ```./smallsh < [script_name]```
+
 
 ## Learning Outcomes
 
