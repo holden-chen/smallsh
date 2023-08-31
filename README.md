@@ -39,25 +39,7 @@ In interactive mode:
 
 ## Usage
 
-Interactive Mode:
-
-bash
-
-$ smallsh
-
-Non-interactive Mode:
-
-bash
-
-$ smallsh [script_file_name]
-
-Example
-
-Running a command in the background:
-
-bash
-
-$ ls -al &
+To compile the program, run '''make'''
 
 ## Learning Outcomes
 
